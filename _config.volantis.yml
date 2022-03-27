@@ -464,15 +464,15 @@ sidebar:
           text: '已运行时间：'
           unit: '天'
         wordcount:
-          enable: false
+          enable: true
           text: '本站总字数：'   # 需要启用 wordcount
           unit: '字'
         siteuv:
-          enable: false
+          enable: true
           text: '本站访客数：'   # 需要启用 busuanzi
           unit: '人'
         sitepv:
-          enable: false
+          enable: true
           text: '本站总访问量：' # 需要启用 busuanzi
           unit: '次'
         lastupd:
