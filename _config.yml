@@ -4,15 +4,12 @@
 
 # Site
 title: Tangninghaha的博客
-subtitle: 'Ning Blog'
+subtitle: 'TAUNING'
 description: 'Tangninghaha的博客'
 keywords: Tangning
 author: Tangninghaha
 language:
   - zh-CN
-  - en
-  - zh-HK
-  - zh-TW
 timezone: ''
 favicon: https://cdn.jsdelivr.net/gh/tangninghaha/Pictures/ICO.ico
 # URL

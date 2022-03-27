@@ -13,6 +13,8 @@ sidebar: [toc]
 keywords: 关键字
 description: 描述
 headimg: URL
+plugins:
+  - mathjax
 ---
 
 # 请不要使用H1标题
