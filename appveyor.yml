@@ -4,7 +4,7 @@ environment:
   access_token:
     secure: l4yqxSdcjsn7mbKTB67iaSyQU7pq7Ttbitrg5uLmJLCZ59GUKe7pp/hYBPC2sqWH
   matrix:
-    - nodejs_version: "12"
+    - nodejs_version: "16"
 install:
     - ps: Install-Product node $env:nodejs_version
     - node --version
