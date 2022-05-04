@@ -201,7 +201,7 @@ cover:
   scheme: search # search (搜索), dock (坞), featured (精选), focus (焦点)
   title: 'Tangninghaha'
   subtitle: 'TAUNING'
-  background: https://cdn.jsdelivr.net/gh/tangninghaha/Pictures/Wallpaper.webp
+  background: https://cdn.jsdelivr.net/gh/tangninghaha/Pictures/Wallpaper.jpg
   display:
     home: true
     archive: false
@@ -451,7 +451,7 @@ sidebar:
       class: webinfo
       display: [desktop]
       header:
-        icon: fas fa-award
+        icon: fa-solid fa-award
         title: 站点信息
       type:
         article:
@@ -460,21 +460,23 @@ sidebar:
           unit: '篇'
         runtime:
           enable: true
-          data: '2022/02/08'    # 填写建站日期
+          data: '2020/01/01'    # 填写建站日期
           text: '已运行时间：'
           unit: '天'
         wordcount:
           enable: true
           text: '本站总字数：'   # 需要启用 wordcount
           unit: '字'
-        siteuv:
-          enable: true
-          text: '本站访客数：'   # 需要启用 busuanzi
-          unit: '人'
-        sitepv:
-          enable: true
-          text: '本站总访问量：' # 需要启用 busuanzi
-          unit: '次'
+        visitcounter:
+          service: busuanzi  # busuanzi, leancloud
+          siteuv:
+            enable: true
+            text: '本站访客数：'
+            unit: '人'
+          sitepv:
+            enable: true
+            text: '本站总访问量：'
+            unit: '次'
         lastupd:
           enable: true
           friendlyShow: true    # 更友好的时间显示
